@@ -1,0 +1,57 @@
+/* Design tokens LaporTuntas — diambil dari Design System di Figma */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap');
+
+:root {
+  --font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --color-primary-default: #1E4FD8;
+  --color-primary-dark: #163BA6;
+  --color-primary-soft: #EAF0FF;
+  --color-text-default: #0F172A;
+  --color-text-muted: #475569;
+  --color-text-placeholder: #94A3B8;
+  --color-border-default: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+  --color-background-page: #F8FAFC;
+  --color-background-surface: #FFFFFF;
+  --color-status-success: #15803D;
+  --color-status-success-soft: #E7F6EC;
+  --color-status-warning: #B45309;
+  --color-status-warning-soft: #FFF4DC;
+  --color-status-error: #C81E1E;
+  --color-status-error-soft: #FDECEC;
+
+  --display-h1-size: 44px;
+  --display-h1-weight: 800;
+  --display-h1-line-height: 1.2;
+  --heading-h2-size: 32px;
+  --heading-h2-weight: 800;
+  --heading-h2-line-height: 1.25;
+  --heading-h3-size: 24px;
+  --heading-h3-weight: 700;
+  --heading-h3-line-height: 1.3;
+  --heading-h4-size: 20px;
+  --heading-h4-weight: 700;
+  --heading-h4-line-height: 1.35;
+  --body-large-size: 18px;
+  --body-large-weight: 400;
+  --body-large-line-height: 1.6;
+  --body-default-size: 16px;
+  --body-default-weight: 400;
+  --body-default-line-height: 1.55;
+  --body-small-size: 14px;
+  --body-small-weight: 500;
+  --body-small-line-height: 1.45;
+  --label-button-size: 16px;
+  --label-button-weight: 700;
+  --label-button-line-height: 1.4;
+}
+
+.text-display-h1 { font-family: var(--font-family); font-size: var(--display-h1-size); font-weight: var(--display-h1-weight); line-height: var(--display-h1-line-height); }
+.text-heading-h2 { font-family: var(--font-family); font-size: var(--heading-h2-size); font-weight: var(--heading-h2-weight); line-height: var(--heading-h2-line-height); }
+.text-heading-h3 { font-family: var(--font-family); font-size: var(--heading-h3-size); font-weight: var(--heading-h3-weight); line-height: var(--heading-h3-line-height); }
+.text-heading-h4 { font-family: var(--font-family); font-size: var(--heading-h4-size); font-weight: var(--heading-h4-weight); line-height: var(--heading-h4-line-height); }
+.text-body-large { font-family: var(--font-family); font-size: var(--body-large-size); font-weight: var(--body-large-weight); line-height: var(--body-large-line-height); }
+.text-body-default { font-family: var(--font-family); font-size: var(--body-default-size); font-weight: var(--body-default-weight); line-height: var(--body-default-line-height); }
+.text-body-small { font-family: var(--font-family); font-size: var(--body-small-size); font-weight: var(--body-small-weight); line-height: var(--body-small-line-height); }
+.text-label-button { font-family: var(--font-family); font-size: var(--label-button-size); font-weight: var(--label-button-weight); line-height: var(--label-button-line-height); }
